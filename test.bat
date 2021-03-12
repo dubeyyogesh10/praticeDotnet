@@ -1,4 +1,5 @@
 echo "starting batch file"
+echo The current directory is %CD%
 
 for /f  %%G in ('dir *.zip /b') do (
     set filename=%%~G
